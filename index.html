@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Segitiga</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Kalkulator Segitiga Sama Sisi</h1>
+  <div class="calculator">
+    <label for="base">Panjang Alas:</label>
+    <input type="number" id="base" placeholder="Panjang Alas">
+
+    <label for="height">Tinggi:</label>
+    <input type="number" id="height" placeholder="Tinggi">
+
+    <div class="button-container">
+        <button id="calculate">Hitung</button>
+        <button id="reset">Reset</button>
+      </div>
+      
+      <div id="result">
+        <p>Luas: <span id="areaResult">-</span></p>
+        <p>Keliling: <span id="perimeterResult">-</span></p>
+      </div>
+      
+      <div id="calculationResult"></div>
+    </div>
+
+    <div id="triangleImage">
+      <img src="https://cilacapklik.com/wp-content/uploads/2020/09/Rumus-Luas-Dan-Keliling-Segitiga-1024x576.png" alt="Segitiga" width="700">
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
